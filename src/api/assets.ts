@@ -12,3 +12,7 @@ export function ensureAssetsDir(cfg: ApiConfig) {
 export function getInMemoryURL(cfg: ApiConfig, assetPath: string) {
   return `http://localhost:${cfg.port}/api/thumbnails/${assetPath}`;
 }
+
+export function getDataURL(mediaType: string, data: string) {
+  return `data:${mediaType};base64,${data}`;
+}
