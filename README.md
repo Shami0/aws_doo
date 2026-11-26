@@ -66,7 +66,27 @@ bun run src/index.ts
 
 
 
-## about API's
+## about Routers
+
+  routes: {
+    "/": spa,
+    - Post "/api/login"
+    
+    - Post "/api/refresh"
+
+    - Post "/api/revoke"
+
+    - Post"/api/users"
+
+    - Get & Delete "/api/videos"
+
+    - Get & Delete "/api/videos/:videoId"
+    
+    - Post "/api/thumbnail_upload/:videoId"
+    
+    - Post "/api/video_upload/:videoId"
+
+    - Post "/admin/reset"
 
 
 
